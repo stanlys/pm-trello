@@ -1,0 +1,19 @@
+.search {
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+
+  .divider {
+    height: 100%;
+    margin: 7px;
+  }
+
+  .input {
+    flex: auto;
+    margin-left: 10px;
+  }
+
+  .btnSearch {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,53 @@
+footer {
+  flex-shrink: 0;
+}
+
+.wrap {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-shadow: 0 -1px 0 0 #d2d0cc;
+  font-weight: 500;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  height: 50px;
+  display: inline-block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.link, .icon {
+  opacity: 0.6;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.rsLink {
+  display: flex;
+  width: 80px;
+}
+
+.githubIcon {
+  display: flex;
+  width: 50px;
+}
