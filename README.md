@@ -11,6 +11,7 @@
 6. i18next
 7. notistack
 8. react-redux
+9. reduxjs/toolkit
 
 ## Run Project 
 
